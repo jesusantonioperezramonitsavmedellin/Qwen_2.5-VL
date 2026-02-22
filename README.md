@@ -35,3 +35,5 @@ logs/: Registros de tiempo de respuesta y tasa de precisión (Accuracy) lograda.
 
 📈 Resultados Obtenidos
 El sistema ha demostrado una tasa de acierto superior al 98% en la extracción de conceptos críticos (SKU, Subtotal, IVA), reduciendo el tiempo de procesamiento de 5 minutos manuales a <15 segundos automatizados por folio.
+
+![Arquitectura del Sistema](arquitectura.pdf)
