@@ -24,17 +24,9 @@ OpenPyXL: Interfaz de escritura para la sincronización con el Libro Maestro de 
 
 Pandas: Estructuración de datos y limpieza post-inferencia.
 
-📂 Contenido del Repositorio
-notebooks/pipeline_qwen_vinsur.ipynb: Notebook principal "congelado" con los resultados de la última ejecución de prueba.
-
-src/utils/quantization_config.py: Configuraciones para la carga optimizada en bits.
-
-data/samples_simulated/: Ejemplos de facturas anonimizadas utilizadas para la validación del sistema.
-
-logs/: Registros de tiempo de respuesta y tasa de precisión (Accuracy) lograda.
 
 📈 Resultados Obtenidos
-El sistema ha demostrado una tasa de acierto superior al 98% en la extracción de conceptos críticos (SKU, Subtotal, IVA), reduciendo el tiempo de procesamiento de 5 minutos manuales a <15 segundos automatizados por folio.
+El sistema ha demostrado una tasa de acierto superior al 98% en la extracción de conceptos críticos (SKU, Subtotal, IVA), reduciendo el tiempo de procesamiento de 5 minutos manuales a <15 segundos automatizados por folio pero pueden ser más de 5 facturas.
 
 ![Arquitectura del Sistema](arquitectura.png)
 
