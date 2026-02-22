@@ -42,7 +42,7 @@ Este documento contiene la ejecución íntegra con todas las gráficas, logs de 
 
 Visualización Interactiva del Notebook:
 
-Utiliza el archivo Residencias Qwen_2.5VL (Notebook).
+Utiliza el archivo Residencias_Qwen_2_5_VL.ipynb (Notebook).
 
 Ideal para una revisión rápida de la estructura de las celdas sin necesidad de entornos de ejecución.
 
