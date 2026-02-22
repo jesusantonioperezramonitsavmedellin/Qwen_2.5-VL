@@ -37,3 +37,25 @@ logs/: Registros de tiempo de respuesta y tasa de precisión (Accuracy) lograda.
 El sistema ha demostrado una tasa de acierto superior al 98% en la extracción de conceptos críticos (SKU, Subtotal, IVA), reduciendo el tiempo de procesamiento de 5 minutos manuales a <15 segundos automatizados por folio.
 
 ![Arquitectura del Sistema](arquitectura.png)
+
+📂 Guía de Visualización y Evidencias
+
+Debido a la complejidad de los metadatos de los modelos multimodales, se han habilitado tres vías para consultar el trabajo:
+
+Resultados "Congelados" (Recomendado):
+
+Abre el archivo Qwen 2.5-VL - Colab.pdf.
+
+Este documento contiene la ejecución íntegra con todas las gráficas, logs de inferencia y extracciones JSON ya procesadas.
+
+Visualización Interactiva del Notebook:
+
+Utiliza el archivo Residencias Qwen_2.5VL (Notebook).
+
+Ideal para una revisión rápida de la estructura de las celdas sin necesidad de entornos de ejecución.
+
+Inspección Técnica de Código (GitHub Dev):
+
+Si tienes cuenta de GitHub, abre el archivo Qwen_2.5-VL.ipynb.
+
+Tip Pro: Presiona la tecla . (punto) en tu teclado o cambia la URL de .com a .dev para abrir el entorno de GitHub Dev. Esto permite auditar el código fuente JSON y la lógica de programación de manera profesional.
